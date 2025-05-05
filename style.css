@@ -1,0 +1,209 @@
+ @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+ * {
+      font-family: 'Mukta', sans-serif;
+ }
+
+ body {
+      margin: 0;
+ }
+
+ .logo {
+      font-family: 'Satisfy', cursive;
+      font-size: 20pt;
+ }
+
+ nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 1em;
+      padding-top: 0.5em;
+      padding-bottom: 0.3em;
+      border-bottom: 1px solid #dbdbdb;
+      background: white;
+ }
+
+ .atas .usn {
+      font-weight: bold;
+ }
+
+ .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+
+ svg {
+      width: 2em;
+ }
+
+ .atas {
+      display: flex;
+      justify-content: space-between;
+      margin: 1em;
+      align-items: center;
+      margin-bottom: 0;
+ }
+
+ .atas .user {
+      align-items: center;
+      display: flex;
+ }
+
+ .atas .bulat img {
+      width: 35px;
+      height: 35px;
+ }
+
+ .story {
+      display: flex;
+      background: #fafafa;
+      padding: 1em;
+      padding-bottom: 1em;
+      padding-top: 1em;
+      overflow-x: auto;
+      border-bottom: 1px solid #dbdbdb;
+ }
+
+ .story::-webkit-scrollbar {
+      width: 5px;
+ }
+
+ .story::-webkit-scrollbar-track {
+      background: none;
+ }
+
+ .story::-webkit-scrollbar-thumb {
+      background-color: none;
+      border-radius: 5px;
+ }
+
+ body::-webkit-scrollbar {
+      width: 5px;
+ }
+
+ body::-webkit-scrollbar-track {
+      background: none;
+ }
+
+ body::-webkit-scrollbar-thumb {
+      background-color: none;
+      border-radius: 5px;
+ }
+
+ .bulat img {
+      width: 60px;
+      height: 60px;
+      padding: 0.2em;
+      margin-right: 0.5em;
+      border: 1px solid red;
+      border-radius: 50px;
+ }
+
+ .bulat img.active {
+      border-color: grey;
+ }
+
+ .post img {
+      width: 100%;
+ }
+
+ .act {
+      display: flex;
+      justify-content: space-between;
+      padding: 1em;
+      align-items: center;
+ }
+
+ .act .interact {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+
+ .act .interact svg {
+      margin-right: 0.3em;
+ }
+
+ .likes-views {
+      padding-left: 1em;
+      padding-right: 1em;
+      margin-top: -1em;
+      font-weight: bolder;
+ }
+
+ .desc {
+      margin-top: -0.5em;
+      padding: 1em;
+      padding-bottom: 0em;
+      height: 50px;
+      overflow: hidden;
+ }
+
+ .view-more,
+ .comment,
+ .date {
+      padding: 1em;
+ }
+
+ .comment {
+      padding-top: 0;
+      padding-bottom: 0;
+ }
+
+ .comment .item {
+      display: flex;
+      justify-content: space-between;
+      padding-bottom: 0;
+ }
+
+ .comment svg {
+      width: 0.9em;
+ }
+
+ .view-more {
+      padding-bottom: 0.5em;
+      padding-top: 0.5em;
+      color: #a8a6a6;
+ }
+
+ .date {
+      text-transform: uppercase;
+      font-size: 8pt;
+      padding-top: 0.5em;
+      padding-left: 1.5em;
+ }
+
+ footer {
+      padding: 1em;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 1;
+      background: white;
+      padding-top: 0.3em;
+      padding-bottom: 0.3em;
+
+ }
+
+ .footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+
+ .footer img {
+      width: 25px;
+      height: 25px;
+      border-radius: 50px;
+ }
+
+@media screen and (min-width: 768px){
+      body{
+         padding: 0 400px;
+      }
+}
